@@ -1,0 +1,80 @@
+ Kali Linux commands:
+
+1. **ls** - Lists directory contents.
+2. **cd** - Changes the current directory.
+3. **pwd** - Prints the current working directory.
+4. **cp** - Copies files or directories.
+5. **mv** - Moves or renames files or directories.
+6. **rm** - Removes files or directories.
+7. **mkdir** - Creates a new directory.
+8. **rmdir** - Removes an empty directory.
+9. **touch** - Creates an empty file or updates the timestamp of an existing file.
+10. **chmod** - Changes the permissions of a file or directory.
+11. **chown** - Changes the owner of a file or directory.
+12. **cat** - Concatenates and displays file content.
+13. **nano** - A text editor for editing files.
+14. **vim** - Another text editor for editing files.
+15. **echo** - Displays a line of text or string that is passed as an argument.
+16. **grep** - Searches for a specified pattern in files.
+17. **find** - Searches for files in a directory hierarchy.
+18. **locate** - Finds files by name.
+19. **updatedb** - Updates the database used by the `locate` command.
+20. **df** - Displays the amount of disk space available on the file system.
+21. **du** - Estimates file space usage.
+22. **top** - Displays all running processes.
+23. **ps** - Reports a snapshot of the current processes.
+24. **kill** - Terminates a process by PID.
+25. **ping** - Tests the reachability of a host on an IP network.
+26. **ifconfig** - Configures a network interface.
+27. **iwconfig** - Configures wireless network interfaces.
+28. **netstat** - Displays network connections, routing tables, interface statistics, etc.
+29. **ss** - Displays socket statistics.
+30. **wget** - Retrieves files from the web.
+31. **curl** - Transfers data from or to a server.
+32. **tar** - Archives files.
+33. **gzip** - Compresses files.
+34. **gunzip** - Decompresses files.
+35. **zip** - Packages and compresses files.
+36. **unzip** - Extracts compressed files.
+37. **apt-get** - A package manager used to install, update, and remove packages.
+38. **apt-cache** - Queries the APT cache.
+39. **dpkg** - A package manager for Debian-based systems.
+40. **service** - Manages services.
+41. **systemctl** - Controls the systemd system and service manager.
+42. **journalctl** - Views systemd logs.
+43. **whoami** - Displays the current username.
+44. **su** - Switches to another user.
+45. **sudo** - Executes a command as another user.
+46. **passwd** - Changes a user password.
+47. **history** - Displays the command history.
+48. **clear** - Clears the terminal screen.
+49. **man** - Displays the manual pages for a command.
+50. **alias** - Creates an alias for a command.
+
+sudo commands for ubuntu:
+1. sudo apt update - Updates the package lists for upgrades and new package installations
+2. sudo apt upgrade - Upgrades all upgradable packages
+3. sudo reboot - Reboots the system
+4. sudo shutdown -h now - Shuts down the system immediately
+5. sudo adduser username - Creates a new user account
+6. sudo deluser username - Deletes a user account
+7. sudo passwd username - Changes the password for a user account
+8. sudo chmod permissions filename - Changes the permissions of a file or directory
+9. sudo chown user:group filename - Changes the owner and group of a file or directory
+10. sudo mount device directory - Mounts a device to a specified directory
+11. sudo umount directory - Unmounts a mounted device
+12. sudo fdisk -l - Lists all disk partitions
+13. sudo iptables -L - Lists all firewall rules
+14. sudo ufw enable - Enables the Uncomplicated Firewall
+15. sudo systemctl start service - Starts a system service
+16. sudo systemctl stop service - Stops a system service
+17. sudo systemctl restart service - Restarts a system service
+18. sudo systemctl status service - Checks the status of a system service
+19. sudo nano /path/to/file - Opens a file in the Nano text editor with root privileges
+20. sudo dpkg -i package.deb - Installs a .deb package file
+21. sudo apt autoremove - Removes unnecessary packages
+22. sudo lsof -i :port - Lists processes using a specific port
+23. sudo tail -f /var/log/syslog - Displays the system log in real-time
+24. sudo find / -name filename - Searches for a file in the entire file system
+25. sudo dd if=input of=output - Copies and converts files (useful for creating bootable USB drives)
+
